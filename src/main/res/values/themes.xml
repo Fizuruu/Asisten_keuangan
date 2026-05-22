@@ -1,0 +1,28 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Tema Anime (Kawaii Style) menggunakan Material 3 -->
+    <style name="Theme.AsistenKeuangan" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Warna utama menggunakan palet anime pink/pastel -->
+        <item name="colorPrimary">@color/anime_primary</item>
+        <item name="colorOnPrimary">@color/anime_on_primary</item>
+        <item name="colorPrimaryContainer">@color/anime_secondary</item>
+        <item name="colorOnPrimaryContainer">@color/white</item>
+        
+        <item name="colorSecondary">@color/anime_secondary</item>
+        <item name="colorOnSecondary">@color/anime_on_secondary</item>
+        
+        <item name="android:windowBackground">@color/anime_background</item>
+        <item name="android:statusBarColor">@color/anime_primary</item>
+
+        <!-- Kustomisasi sudut (Corner Radius) agar lebih membulat/kawaii -->
+        <item name="shapeAppearanceLargeComponent">@style/ShapeAppearance.Anime.Large</item>
+        <item name="shapeAppearanceMediumComponent">@style/ShapeAppearance.Anime.Medium</item>
+    </style>
+
+    <style name="ShapeAppearance.Anime.Large" parent="ShapeAppearance.Material3.LargeComponent">
+        <item name="cornerSize">24dp</item>
+    </style>
+
+    <style name="ShapeAppearance.Anime.Medium" parent="ShapeAppearance.Material3.MediumComponent">
+        <item name="cornerSize">16dp</item>
+    </style>
+</resources>

@@ -1,0 +1,18 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Tema Anime (Dark Mode) -->
+    <style name="Theme.AsistenKeuangan" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Menggunakan warna merah anime yang sama agar konsisten -->
+        <item name="colorPrimary">@color/anime_primary</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorPrimaryContainer">@color/anime_primary_variant</item>
+        
+        <item name="colorSecondary">@color/anime_secondary</item>
+        <item name="colorOnSecondary">@color/white</item>
+        
+        <item name="android:statusBarColor">@color/anime_primary_variant</item>
+
+        <!-- Kustomisasi sudut -->
+        <item name="shapeAppearanceLargeComponent">@style/ShapeAppearance.Anime.Large</item>
+        <item name="shapeAppearanceMediumComponent">@style/ShapeAppearance.Anime.Medium</item>
+    </style>
+</resources>

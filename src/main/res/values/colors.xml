@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Anime Red Theme Colors -->
+    <color name="anime_primary">#FF4D4D</color> <!-- Strong Anime Red -->
+    <color name="anime_primary_variant">#D32F2F</color>
+    <color name="anime_on_primary">#FFFFFF</color>
+    
+    <color name="anime_secondary">#FF8A80</color> <!-- Soft Coral/Red -->
+    <color name="anime_secondary_variant">#FF5252</color>
+    <color name="anime_on_secondary">#FFFFFF</color>
+    
+    <color name="anime_background">#FFF5F5</color> <!-- Very Light Red/White -->
+    <color name="anime_surface">#FFFFFF</color>
+    <color name="anime_on_background">#333333</color>
+    
+    <color name="income_green">#4CAF50</color> <!-- Standard Green -->
+    <color name="expense_red">#FF1744</color> <!-- Vivid Red -->
+
+    <!-- Default colors kept for compatibility -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="purple_500">#FF4D4D</color> <!-- Remapped to anime red -->
+</resources>
